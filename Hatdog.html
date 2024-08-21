@@ -8,33 +8,37 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/79be424806.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
 
     <div class="todo">
         <div class="header">
             <h1>To Do List</h1>
-            <input type="text" class="todo-input">
-            <button class="btn-add">Add</button>
+            <input type="text" class="todo-input" placeholder="Add a new task...">
+            <button class="btn btn-primary btn-add">Add</button>
         </div>
         <div class="todolist">
-            <h3>List of Works Todo:</h3>
+            <h3>List of Tasks:</h3>
             <p class="error-info"></p>
             <ul>
-                <li data-id='test1'>Item 1
+                <!-- Example item, will be dynamically created by the script -->
+                <!-- <li data-id='test1'>Sample Task
                     <div class="tools">
                         <button class="complete"><i class="fas fa-check"></i></button>
-                        <button class="edit">EDIT</button>
-                        <button class="delete"><i class="fas fa-times"></i></button>
+                        <button class="btn btn-outline-danger delete">Delete</button>
+                        <button class="btn btn-outline-secondary edit">Edit</button>
                     </div>
+                </li> -->
             </ul>
         </div>
     </div>
     
     <div class="popup">
-        <h3>Edit</h3>
+        <h3>Edit Task</h3>
         <div class="popup-body">
             <p class="popup-info"></p>
             <input type="text" class="popup-input">
