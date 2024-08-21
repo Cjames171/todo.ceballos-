@@ -146,6 +146,7 @@ h1 {
     color: var(--light);
     background-color: var(--light-dark);
     border-radius: 5px;
+    background-color: #c9f29b;
 }
 
 .popup h3 {
@@ -164,6 +165,7 @@ h1 {
     flex-wrap: wrap;
     width: 90%;
     padding: 10px;
+    
 }
 
 .popup-input {

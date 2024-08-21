@@ -1,0 +1,14 @@
+git config --global user.name 
+git config --global user.name "Cjames171"
+git config --global user.email "cyrusjames93@gmail.com"
+git init
+git add .
+git commit -m "first commit"
+
+echo "# todo.ceballos-" >> README.md
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Cjames171/todo.ceballos-.git
+git push -u origin main
+ddd
